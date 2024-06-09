@@ -1,6 +1,14 @@
 # Tromboler
 A simple app for a test
 
+### Initialize the database
+To Initialize the database you can run:
+```
+mongosh -f mongo.init.js
+```
+
+If you're running the app with docker, it's the same command, just make sure you run it after the docker is up.
+
 ### How to run
 #### Locally:
 First copy both `.example.env` to `.env`:
