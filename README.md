@@ -33,9 +33,9 @@ cp ./frontend/.example.env ./frontend/.env
 cp ./backend/.example.env ./backend/.env
 ```
 
-Then run:
+Then run in each folder:
 ```
-docker compose -f frontend/docker-compose.yml -f backend/docker-compose.yml up
+docker compose up
 ```
 
 Then go to `localhost:8080`
